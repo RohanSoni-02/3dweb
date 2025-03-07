@@ -30,19 +30,18 @@ const About = () => {
     <div id="about" className="min-h-screen w-screen">
       <div className="relative mb-8 mt-36 flex flex-col items-center gap-5">
         <p className="font-general text-sm uppercase md:text-[10px]">
-          Welcome to Zentry
+        Building the Future, One Line of Code at a Time
         </p>
 
         <AnimatedTitle
-          title="Disc<b>o</b>ver the world's <br /> largest shared <b>a</b>dventure"
+          title="Ab<b>o</b>ut Me<br />"
           containerClass="mt-5 !text-black text-center"
         />
 
-        <div className="about-subtext">
-          <p>The Game of Games begins—your life, now an epic MMORPG</p>
-          <p className="text-gray-500">
-            Zentry unites every player from countless games and platforms, both
-            digital and physical, into a unified Play Economy
+        <div className="about-subtext max-w-90">
+          <p>Moved to Melbourne in 2021 to pursue my degree, embracing new challenges and opportunities in the tech industry. </p>
+          <p className="text-gray-500 max-w-170">
+          Graduated with a High Distinction GPA in Bachelor of Computer Science from Swinburne University of Technology, majoring in Software Development.
           </p>
         </div>
       </div>
