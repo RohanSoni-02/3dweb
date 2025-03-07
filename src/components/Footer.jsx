@@ -1,10 +1,11 @@
-import { FaDiscord, FaTwitter, FaYoutube, FaMedium } from "react-icons/fa";
+import {FaGithub, FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { SiLeetcode } from "react-icons/si";
 
 const socialLinks = [
-  { href: "https://discord.com", icon: <FaDiscord /> },
-  { href: "https://twitter.com", icon: <FaTwitter /> },
-  { href: "https://youtube.com", icon: <FaYoutube /> },
-  { href: "https://medium.com", icon: <FaMedium /> },
+  { href: "https://www.linkedin.com/in/rohan-soni-389591203/", icon: <FaLinkedin /> },
+  { href: "https://github.com/RohanSoni-02", icon: <FaGithub /> },
+  { href: "https://leetcode.com/RohanS02/", icon: <SiLeetcode /> },
 ];
 
 const Footer = () => {
@@ -12,7 +13,7 @@ const Footer = () => {
     <footer className="w-screen bg-[#5542ff] py-4 text-black">
       <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 md:flex-row">
         <p className="text-center text-sm font-light md:text-left">
-          ©Nova 2024. All rights reserved
+          Rohan Soni
         </p>
 
         <div className="flex justify-center gap-4  md:justify-start">
@@ -29,12 +30,6 @@ const Footer = () => {
           ))}
         </div>
 
-        <a
-          href="#privacy-policy"
-          className="text-center text-sm font-light hover:underline md:text-right"
-        >
-          Privacy Policy
-        </a>
       </div>
     </footer>
   );
